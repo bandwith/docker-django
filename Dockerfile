@@ -3,7 +3,7 @@ MAINTAINER Stephan Telling <st@telling.xyz>
 
 ENV DOCKERIZE_VERSION="v0.2.0" \
     PYTHONUNBUFFERED="1" \
-    DJANGO_VERSION="1.10.3" \
+    DJANGO_VERSION="3.2.5" \
     DJANGO_DB_HOST="" \
     DJANGO_DB_PORT="" \
     DJANGO_SUPERUSER_NAME="" \
@@ -13,7 +13,7 @@ ENV DOCKERIZE_VERSION="v0.2.0" \
 RUN apt-get update && apt-get install -y \
         gcc \
         gettext \
-        libmysqlclient-dev \
+        libmariadb-dev \
         libpq-dev \
         sqlite3 \
         --no-install-recommends \
