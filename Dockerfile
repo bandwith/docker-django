@@ -1,7 +1,7 @@
 FROM python:3.9.6
 MAINTAINER Stephan Telling <st@telling.xyz>
 
-ENV DOCKERIZE_VERSION="v0.2.0" \
+ENV DOCKERIZE_VERSION="v0.6.1" \
     PYTHONUNBUFFERED="1" \
     DJANGO_VERSION="3.2.5" \
     DJANGO_DB_HOST="" \
