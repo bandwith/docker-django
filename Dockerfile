@@ -1,4 +1,4 @@
-FROM python:3.9.6
+FROM python:3.12.0a4
 MAINTAINER Stephan Telling <st@telling.xyz>
 
 ENV DOCKERIZE_VERSION="v0.6.1" \
