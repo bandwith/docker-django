@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
         libmariadb-dev \
         libpq-dev \
         sqlite3 \
+        wget \
         --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
