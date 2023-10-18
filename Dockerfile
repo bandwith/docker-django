@@ -1,4 +1,4 @@
-FROM python:3.11.6-slim
+FROM python:3.12.0-slim
 MAINTAINER Stephan Telling <st@telling.xyz>
 
 ENV DOCKERIZE_VERSION="v0.6.1" \
